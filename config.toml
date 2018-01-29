@@ -53,11 +53,11 @@ googleAnalytics = ""
 
       [[params.links.list1.link]]
         text = "Quarteto Douro"
-        url = "www.quartetodouro.eu"
+        url = "http://www.quartetodouro.eu"
 
       [[params.links.list1.link]]
         text = "Camerata NovNorte"
-        url = "www.cameratanovnorte.eu"
+        url = "http://www.cameratanovnorte.eu"
 
       #[[params.links.list1.link]]
       #  text = "Newsletter"
