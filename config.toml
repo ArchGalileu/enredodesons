@@ -1,0 +1,103 @@
+# Site settings
+baseURL = "https://example.org/"
+languageCode = "en-US"
+title = "Enredo de Sons, Associação"
+theme = "hugo-split-theme"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+  # Metadata for search engines and social sharing
+  name = "Enredo de Sons, Associação"
+  description = "Representante jurídico do Quarteto de Cordas Douro e da Camerata NovNorte."
+  shareImage = "images/social.jpg"
+  twitterHandle = "onepagelove"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Copyright
+  copyright = "&copy;2017 Enredo de Sons, Associação"
+
+  # Section - Content
+  [params.content]
+    name = "desde 2009"
+    tagline = "Enredo de Sons, Associação"
+    bio = "Representante legal do </br>Quarteto de Cordas Douro e da Camerata NovNorte.</br></br>para mais informações envie email para: enredosons at gasparsantos eu"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = false
+      file = "images/background.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = true
+      mute = true
+      #file = "videos/background.mp4"
+      youtubeId = "6M2Sb7xMLA4"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Projetos"
+
+      [[params.links.list1.link]]
+        text = "Quarteto Douro"
+        url = "www.quartetodouro.eu"
+
+      [[params.links.list1.link]]
+        text = "Camerata NovNorte"
+        url = "www.cameratanovnorte.eu"
+
+      #[[params.links.list1.link]]
+      #  text = "Newsletter"
+      #  url = "#"
+
+  # Links List #2
+  #[[params.links]]
+  #  [params.links.list2]
+  #    heading = "Social"
+
+   #   [[params.links.list2.link]]
+   #     text = "Twitter"
+   #     url = "#"
+
+    #  [[params.links.list2.link]]
+    #    text = "Instagram"
+    #    url = "#"
+
+     # [[params.links.list2.link]]
+     #   text = "Dribbble"
+     #   url = "#"
+
+  # Links List #3
+  #[[params.links]]
+  #  [params.links.list3]
+  #    heading = "Network"
+
+   #   [[params.links.list3.link]]
+   #     text = "Link One"
+   #     url = "#"
+
+    #  [[params.links.list3.link]]
+    #    text = "Link Two"
+    #    url = "#"
+
+    #  [[params.links.list3.link]]
+    #    text = "Link Three"
+    #    url = "#"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
