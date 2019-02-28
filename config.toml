@@ -40,7 +40,7 @@ googleAnalytics = ""
     # Video
     [params.visual.video]
       enable = true
-      mute = true
+      mute = false
       #file = "videos/background.mp4"
       youtubeId = "6M2Sb7xMLA4"
 
